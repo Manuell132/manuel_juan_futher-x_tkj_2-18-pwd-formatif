@@ -6,11 +6,12 @@
   src: url(./../assets/fonts/open-sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
+/* Latar (Background) */
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: aliceblue;
 }
 
-/* Latar (Background) */
 #about {
   background-image: url(./../assets/images/about/about-background.png);
   padding-top: 30px;
