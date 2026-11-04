@@ -1,0 +1,70 @@
+body {
+  background-color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.menu a {
+  color: darkblue;
+  font-weight: 550;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: brown;
+  cursor: pointer;
+}
+
+.btn {
+  font-weight: 550;
+  display: inline-block;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn-grow {
+  margin-left: 20px;
+  background-color: rgb(191, 196, 255);
+  color: darkblue;
+  transition: transform 0.3s ease-out;
+}
+
+.btn-grow:hover {
+  transform: scale(105%);
+  cursor: pointer;
+}
+
+.btn-darken {
+  margin-left: 10px;
+  background-color: blue;
+  color: white;
+  transition: background-color 0.4s linear;
+}
+
+.btn-darken:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
+
+a:focus {
+  outline: 3px solid darkblue;
+  outline-offset: 2px;
+}
+
+footer {
+  margin: 20px;
+}
+
+footer > a {
+  border-radius: 5px;
+}
